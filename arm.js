@@ -28,7 +28,7 @@ function addWins(player) {
 }
 function playGame(player1, player2, playUntil) {
     console.log('Hulk vs Thor, Lets Arm Wrestle !');
-    console.log('First to 2 is the strongest avenger !!!')
+    console.log('First to 2 is the Strongest Avenger !!!')
     while (player1.won < playUntil && player2.won < playUntil) {
         addWins(playRound(player1, player2))
         player1.armStrength = Math.floor(Math.random() * 10);
